@@ -1,0 +1,216 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    background-size: 100%;  
+    display: block;
+    height: 100vh;
+    background: radial-gradient(#202A38, #181D27) 80%;
+    font-family: "JetBrains Mono", monospace;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.container{
+    max-width: 1340px;
+    margin: 0px auto;
+}
+.top-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.top-block a{
+    color: #fff;
+}
+.top-logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.top-logo span{
+    color: #E55D8F;
+    font-size: 24px;
+}
+.top-logo p{
+    font-size: 24px;
+}
+.top-menu{
+    margin-right: 25px;
+    font-size: 24px;
+}
+.top-menu ul{
+    list-style-type: none;
+    color: #fff; 
+    display: flex;     
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menu{
+    margin-right: 96px;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 191px;
+}
+.holder-text{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.holder-title{
+    font-size: 30px;
+    font-style: bold;
+    color: #E55D8F;
+    line-height: 6px;
+}
+.holder-name{
+    color: #fff;
+    font-size: 56px;
+    line-height: 6px;
+}
+.holder-desk{
+    color: #CDCDCD;
+    font-size: 22px;
+}
+.holder-button{
+    border:  1px solid #E55D8F;
+    border-radius: 4%;
+    border-width: 2px;
+    height: 53px;
+    width: 244px;
+    margin-top: 49px;
+}
+.holder-button a{
+    font-size: 24px;
+    padding: 10px 24px;
+    color: #E55D8F;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.holder-img{
+    width: 548px;
+    height: 515px;
+}
+.skills-title{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 56px;
+    font-weight: bold;
+    height: 130px;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill{
+    display: flex;
+    width: 150px;
+    height: 248px;
+    flex-direction: column;
+}
+.skill-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.skill-image{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.progress-level{
+    height: 10px; 
+    width: 100%; 
+    background-color: rgb(11, 14, 20); 
+    border-radius: 10px;
+}
+.progress-html{
+    height: 100%; 
+    width: 100%; 
+    background-color: #E44F26; 
+    border-radius: inherit;
+}
+.progress-css{
+    height: 100%; 
+    width: 100%;
+    background-color: #1572B6; 
+    border-radius: inherit;
+}
+.progress-js{
+    height: 100%; 
+    width: 20%;
+    background-color: rgb(245, 222, 25); 
+    border-radius: inherit;
+}
+.progress-react{
+    height: 100%; 
+    width: 5%; 
+    background-color: #59C3E2; 
+    border-radius: inherit;
+}
+.progress-git{
+    height: 100%; 
+    width: 5%; 
+    background-color: #F34F29; 
+    border-radius: inherit;
+}
+.contacts{
+    margin-top: 150px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.contacts-title{
+    font-weight: bold;
+    font-size: 56px;
+    color: #fff;
+}
+.contacts-text{
+    font-size: 24px;
+    color: #CDCDCD;
+    margin-bottom: 80px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.link-item{
+    display: flex;
+    align-items: center;
+}
+.link-logo{
+    margin-right: 25px;
+}
+.link-img{
+    width: 50px;
+    height: 50px;
+}
+.link-text{
+    color: #CDCDCD;
+    font-size: 30px;
+}
+.link-top, .link-bottom{
+    display: block;
+    text-align: center;
+    justify-content: space-around
+}
